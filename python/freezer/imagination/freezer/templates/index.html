@@ -1,0 +1,14 @@
+{% extends "admin/index.html" %}
+{# {% load i18n admin_static %} #}
+
+{# Add own css class, place my block below footer #}
+
+{% block footer %}
+  {{ block.super }}
+  <p>Dependecies (pip freeze):</p>
+  <ul>
+  {% for name, version in requirements %}
+    <li>Name: {{ name }}, {{ version }}</li>
+  {% endfor %}
+  </ul>
+{% endblock %}
