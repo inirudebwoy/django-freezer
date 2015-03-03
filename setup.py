@@ -10,7 +10,7 @@ except ImportError:
 
 
 setup(
-    name='django-freezer',
+    name='freezer',
     version=freezer.__version__,
     description='Print pip freeze in your admin panel',
     author='Michal Klich',
