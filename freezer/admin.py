@@ -8,8 +8,8 @@ def _parse(reqs_str):
     return [r.split('==') for r in reqs_str.splitlines()]
 
 
-class MyAdminSite(AdminSite):
-    index_template = 'index.html'
+class FreezerAdminSite(object):
+    index_template = 'freezer/index.html'
 
     def index(self, request, extra_context=None):
         """ TODO """
@@ -21,6 +21,8 @@ class MyAdminSite(AdminSite):
             # attach error?
             reqs = 'pip freeze call failed'
         extra_context['requirements'] = _parse(reqs)
-        return super(MyAdminSite, self).index(request, extra_context)
+        return super(FreezerAdminSite, self).index(request, extra_context)
 
-admin_site = MyAdminSite(name='admin')
+
+class AdminSiteExtended(FreezerAdminSite, AdminSite):
+    """ TODO """

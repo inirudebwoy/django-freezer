@@ -1,0 +1,2 @@
+include README.rst
+include freezer/templates/freezer/index.html
