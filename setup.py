@@ -1,5 +1,5 @@
 #  -*- coding: utf-8 -*-
-import freezer
+import djangofreezer
 
 try:
     from setuptools import setup
@@ -10,13 +10,13 @@ except ImportError:
 
 
 setup(
-    name='django-freezer',
-    version=freezer.__version__,
+    name='djangofreezer',
+    version=djangofreezer.__version__,
     description='Print pip freeze in your admin panel',
     author='Michal Klich',
     author_email='michal.klich@imagination.com',
     include_package_data=True,
-    packages=['django-freezer'],
+    packages=['djangofreezer'],
     url='https://bitbucket.org/michalklich/django-freezer',
     zip_safe=False,
     classifiers=[
