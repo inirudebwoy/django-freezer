@@ -1,6 +1,9 @@
 {% extends "admin/index.html" %}
 
-{# Add own css class, place my block below footer #}
+{% block extrastyle  %}
+{{block.super}}
+<link rel="stylesheet" type="text/css" href="{% static "admin/css/base.css" %}" />
+{% endblock %}
 
 {% block footer %}
   {{ block.super }}

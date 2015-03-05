@@ -4,7 +4,7 @@ from django.contrib.admin import AdminSite
 
 
 def _parse(reqs_str):
-    """ TODO """
+    """ Parse string of requirements into list """
     return [r.split('==') for r in reqs_str.splitlines()]
 
 
@@ -12,7 +12,7 @@ class FreezerAdminSite(object):
     index_template = 'djangofreezer/index.html'
 
     def index(self, request, extra_context=None):
-        """ TODO """
+        """ Add pip freeze info to request """
         if extra_context is None:
             extra_context = {}
         try:
@@ -25,4 +25,4 @@ class FreezerAdminSite(object):
 
 
 class AdminSiteExtended(FreezerAdminSite, AdminSite):
-    """ TODO """
+    """ Admin extended with pip freeze results """

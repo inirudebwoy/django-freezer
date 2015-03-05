@@ -8,8 +8,8 @@ Installation
 Put package in INSTALLED_APPS.
 In urls.py add import of admin_site from freezer
 
-from imagination.freezer.admin import admin_site
+from djangofreezer.admin import AdminSiteExtended
 
 Next add
-admin.site = admin_site
+admin.site = AdminSiteExtended
 before calling autodiscover()
