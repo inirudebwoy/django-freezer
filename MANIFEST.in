@@ -1,2 +1,3 @@
 include README.rst
 include djangofreezer/templates/djangofreezer/index.html
+include djangofreezer/static/css/admin_freezer.css
