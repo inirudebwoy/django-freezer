@@ -16,8 +16,8 @@ setup(
     author='Michal Klich',
     author_email='michal.klich@imagination.com',
     include_package_data=True,
-    packages=['freezer'],
-    url='https://bitbucket.org/michalklich/django-freeze',
+    packages=['django-freezer'],
+    url='https://bitbucket.org/michalklich/django-freezer',
     zip_safe=False,
     classifiers=[
         'Development Status :: 4 - Beta',
