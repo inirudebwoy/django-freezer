@@ -1,8 +1,9 @@
 {% extends "admin/index.html" %}
+{% load static from staticfiles %}
 
 {% block extrastyle  %}
 {{block.super}}
-<link rel="stylesheet" type="text/css" href="{% static "admin/css/base.css" %}" />
+<link rel="stylesheet" type="text/css" href="{% static "css/admin_extra.css" %}" />
 {% endblock %}
 
 {% block footer %}
