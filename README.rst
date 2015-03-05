@@ -2,6 +2,9 @@
 Django Freezer
 ==============
 
+Code can be found here.
+https://bitbucket.org/michalklich/django-freezer
+
 Installation
 ============
 Install from cheeseshop.imagination.net::
@@ -21,4 +24,4 @@ Next create new extended site before calling autodiscover()::
   admin.site = AdminSiteExtended()
 
 If you are using Django 1.7 and higher than it is necessery to disable autodiscover
-as per `https://docs.djangoproject.com/en/1.7/ref/contrib/admin/#django.contrib.admin.autodiscover`_
+as per `manual <https://docs.djangoproject.com/en/1.7/ref/contrib/admin/#django.contrib.admin.autodiscover>`_
