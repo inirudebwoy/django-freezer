@@ -9,7 +9,7 @@ def _parse(reqs_str):
 
 
 class FreezerAdminSite(object):
-    index_template = 'freezer/index.html'
+    index_template = 'djangofreezer/index.html'
 
     def index(self, request, extra_context=None):
         """ TODO """

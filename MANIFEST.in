@@ -1,2 +1,2 @@
 include README.rst
-include freezer/templates/freezer/index.html
+include djangofreezer/templates/freezer/index.html
