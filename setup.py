@@ -18,7 +18,6 @@ setup(
     include_package_data=True,
     packages=['djangofreezer'],
     url='https://bitbucket.org/michalklich/django-freezer',
-    zip_safe=False,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
