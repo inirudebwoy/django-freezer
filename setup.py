@@ -10,14 +10,14 @@ except ImportError:
 
 
 setup(
-    name='freezer',
+    name='django-freezer',
     version=freezer.__version__,
     description='Print pip freeze in your admin panel',
     author='Michal Klich',
     author_email='michal.klich@imagination.com',
     include_package_data=True,
     packages=['freezer'],
-    url='http://www.imagination.com',
+    url='https://bitbucket.org/michalklich/django-freeze',
     zip_safe=False,
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -29,9 +29,6 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ]
 )
