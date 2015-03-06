@@ -1,12 +1,12 @@
-==============
+===
 Django Freezer
-==============
+===
 
 Code can be found here.
 https://bitbucket.org/michalklich/django-freezer
 
 Installation
-============
+===
 Install from cheeseshop.imagination.net::
 
   easy_install -ZU -i https://cheeseshop:*****@cheeseshop.imagination.net/ djangofreezer
@@ -25,3 +25,9 @@ Next create new extended site before calling autodiscover()::
 
 If you are using Django 1.7 and higher than it is necessery to disable autodiscover
 as per `manual <https://docs.djangoproject.com/en/1.7/ref/contrib/admin/#django.contrib.admin.autodiscover>`_
+
+Running unit tests
+===
+Run small bash script::
+
+  ./run_tests.sh
