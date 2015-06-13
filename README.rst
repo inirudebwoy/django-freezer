@@ -3,21 +3,21 @@ Django Freezer
 ==============
 
 Code can be found here.
-https://bitbucket.org/michalklich/django-freezer
+https://github.com/inirudebwoy/django-freezer
 
 Installation
 ============
-Install from cheeseshop.imagination.net::
+Install from pip::
 
-  easy_install -ZU -i https://cheeseshop:*****@cheeseshop.imagination.net/ djangofreezer
+  pip install django-freezer
 
 Put package in INSTALLED_APPS.::
 
-  INSTALLED_APPS += ('djangofreezer',)
+  INSTALLED_APPS += ('django_freezer',)
 
 In urls.py add import of AdminSiteExtended from djangofreezer::
 
-  from djangofreezer.admin import AdminSiteExtended
+  from django_freezer.admin import AdminSiteExtended
 
 Next create new extended site before calling autodiscover()::
 
