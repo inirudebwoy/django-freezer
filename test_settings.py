@@ -4,7 +4,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.auth',
     'django.contrib.admin',
-    'djangofreezer',
+    'django_freezer',
 )
 
 SECRET_KEY = 'djangofreezer'
