@@ -26,3 +26,4 @@ class FreezerAdminSite(object):
 
 class AdminSiteExtended(FreezerAdminSite, AdminSite):
     """ Admin extended with pip freeze results """
+    pass
