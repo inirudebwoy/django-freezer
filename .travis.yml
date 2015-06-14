@@ -8,3 +8,12 @@ env:
   - TOXENV=py27-django17
 install: pip install tox
 script: tox
+deploy:
+  provider: pypi
+  user: michal.klich
+  on:
+    tags: true
+    repo: inirudebwoy/django-freezer
+  password:
+    secure: qG8x9ajEUKAnf/kex2pXqLzC45Am7aUn9pNDyb2mpJyP9P4YLX4uz276o6BsDJBqfr3nXlQfoWDkTc0OcPxPBvgkksZrgaVs6VeFxKkw6vOD7VYV97zdqlEEyOXiZahyYSiFD585IRr0rSE04B6Hi7u7T0upW8E89EjMjtdxh9f4eVUpajTmNhB6S9ycw0k38ErH/eg4FvwGtPSJ/oCziWmpcfG+vY5m/5jRwPefqHYgXJ7n6dTC2k2h+esKEFEGgPyVa0naQuOV1sBCoK90nRpBD2HPmLPc2aciHg4QTq9z95rq0nWLLEQdNh5bOxVAxBusLVmYZ22IO6K+I5C1LT2gugG97NxrK5qoRUzS/ynQut8/Tz2CbaQ0N4atwBPsTiwXIkqKk/yzQbdyIlMuI06acXECaB6W/rWvf7xNvMgG8xcnocbBSTlTZKjQ7Zj1bbayUH6fpB4Xx1b2pUMmugzzUUM0BWcIO/xZed4mgHsgg6K2zz1qT0Eq8++HOjDa9P9eoGkztuxYtocEdQhehBywrtypsG7LCXwgo971MbGwAmI4f1xwhKjMYFjnZ0JvfzESz2kMkNFAGH+x9EMz/0l+rJflq1M4loWAGG/x+E0VoFycyUSg6tNzmwJo9Nd7wyz4OeOUBZ/BYSoKPhfSPyGZKR2V3f0JZdxO6geUlJw=
+  distributions: "sdist bdist_wheel"
