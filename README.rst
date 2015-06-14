@@ -1,6 +1,8 @@
 ==============
 Django Freezer
 ==============
+.. image:: https://travis-ci.org/inirudebwoy/django-freezer.svg?branch=master
+    :target: https://travis-ci.org/inirudebwoy/django-freezer
 
 Code can be found here.
 https://github.com/inirudebwoy/django-freezer
@@ -31,6 +33,5 @@ as per `manual <https://docs.djangoproject.com/en/1.7/ref/contrib/admin/#django.
 
 Running unit tests
 ==================
-Run small bash script::
-
-  ./run_tests.sh
+Just use tox::
+  $ tox
