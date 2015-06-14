@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from admin import _parse
+from django_freezer.admin import _parse
 
 REQS_WITH_VERSIONS = \
 """Django==1.6
