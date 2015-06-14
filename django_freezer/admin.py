@@ -9,7 +9,7 @@ def _parse(reqs_str):
 
 
 class FreezerAdminSite(object):
-    index_template = 'djangofreezer/index.html'
+    index_template = 'django_freezer/index.html'
 
     def index(self, request, extra_context=None):
         """ Add pip freeze info to request """
