@@ -1,11 +1,11 @@
 language: python
 env:
-  - TOXENV=py34-django18
-  - TOXENV=py34-django17
-  - TOXENV=py33-django18
-  - TOXENV=py33-django17
-  - TOXENV=py27-django18
-  - TOXENV=py27-django17
+- TOXENV=py34-django18
+- TOXENV=py34-django17
+- TOXENV=py33-django18
+- TOXENV=py33-django17
+- TOXENV=py27-django18
+- TOXENV=py27-django17
 install: pip install tox
 script: tox
 deploy:
@@ -14,6 +14,6 @@ deploy:
   on:
     tags: true
     repo: inirudebwoy/django-freezer
+  distributions: sdist bdist_wheel
   password:
-    secure: qG8x9ajEUKAnf/kex2pXqLzC45Am7aUn9pNDyb2mpJyP9P4YLX4uz276o6BsDJBqfr3nXlQfoWDkTc0OcPxPBvgkksZrgaVs6VeFxKkw6vOD7VYV97zdqlEEyOXiZahyYSiFD585IRr0rSE04B6Hi7u7T0upW8E89EjMjtdxh9f4eVUpajTmNhB6S9ycw0k38ErH/eg4FvwGtPSJ/oCziWmpcfG+vY5m/5jRwPefqHYgXJ7n6dTC2k2h+esKEFEGgPyVa0naQuOV1sBCoK90nRpBD2HPmLPc2aciHg4QTq9z95rq0nWLLEQdNh5bOxVAxBusLVmYZ22IO6K+I5C1LT2gugG97NxrK5qoRUzS/ynQut8/Tz2CbaQ0N4atwBPsTiwXIkqKk/yzQbdyIlMuI06acXECaB6W/rWvf7xNvMgG8xcnocbBSTlTZKjQ7Zj1bbayUH6fpB4Xx1b2pUMmugzzUUM0BWcIO/xZed4mgHsgg6K2zz1qT0Eq8++HOjDa9P9eoGkztuxYtocEdQhehBywrtypsG7LCXwgo971MbGwAmI4f1xwhKjMYFjnZ0JvfzESz2kMkNFAGH+x9EMz/0l+rJflq1M4loWAGG/x+E0VoFycyUSg6tNzmwJo9Nd7wyz4OeOUBZ/BYSoKPhfSPyGZKR2V3f0JZdxO6geUlJw=
-  distributions: "sdist bdist_wheel"
+    secure: b8+0Hw9mXTi0A397YjJ6Fkw44n7hBDCV0iTN44oP5svcpdZFgZBITedx2b3VzrTJ82/CNYg5RjnvWk/LwpWXrLvd3hXiP+UurpA1NwB0FWAcpQm5duM9fG/rCuvYorVsFnUEAC71w5ypUXP/QbTaCmgNUxKHRS6cwYbV1n9VR5ow1dASWkhRWDHtRhA8eSWS27TkuSmInAuDVuSt8Sv96CgHDPOqH2YpsK4JSQeWjD6F7MRmuiV8zuZTYfU6eGrjVxugPp1cDrOQNubrdPge1iWgeAIxsSxOge3MjBmgHkMwdGxsSvG4aUF/GEtOwk8+PwrQmQIdtXAyecw6r06JcumFayhrKAM5wm6aR6cRB3Clm89e3C6IUDa6FioY0QUIrR1AnKqouKR7Urqx+uyqTkRfxmYNotN8ZW8sfyC0eWNNEjRUbSFYnhL1jNV+HEjatqhVFOG3/lGNF45se0N/NLDAlTAZ/Z+USROkDntKUoyULrCVhCjwHevAJbE5RRNhJwDifWQnk+OIZK3jMTrQIlPSdQxX0S2wb6fs5YqJv0ecFnm7nluuXQ40M5Nz1WfGp7VXChYc5OvrEO/v6Q4TGI//nOy2SxgAZLG4D9cAORPumqWF9qExGPhMCYkFvbH5gLIART2mh7sPgHqTQgI6Ce+Z+6e6sDpAl5fGZYJ/cvo=
