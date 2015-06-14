@@ -4,6 +4,10 @@ django-freezer
 .. image:: https://travis-ci.org/inirudebwoy/django-freezer.svg?branch=master
    :target: https://travis-ci.org/inirudebwoy/django-freezer
 
+.. image:: https://readthedocs.org/projects/django-freezer/badge/?version=latest
+   :target: https://readthedocs.org/projects/django-freezer/?badge=latest
+   :alt: Documentation Status
+
 Code can be found here.
 https://github.com/inirudebwoy/django-freezer
 
