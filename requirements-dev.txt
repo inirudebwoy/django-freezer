@@ -1,3 +1,5 @@
 tox
 nose
+django-nose
+Django
 bumpversion
