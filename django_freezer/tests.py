@@ -2,14 +2,12 @@ from django.test import TestCase
 
 from django_freezer.admin import _parse
 
-REQS_WITH_VERSIONS = \
-"""Django==1.6
+REQS_WITH_VERSIONS = """Django==1.6
 ipdb==0.8
 ipython==3.0.0
 """
 
-REQS_WITHOUT_VERSIONS = \
-"""Django
+REQS_WITHOUT_VERSIONS = """Django
 ipdb
 ipython
 """
