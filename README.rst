@@ -5,6 +5,9 @@ Django Freezer
 Code can be found here.
 https://github.com/inirudebwoy/django-freezer
 
+Docs.
+http://django-freezer.readthedocs.org
+
 Installation
 ============
 Install from pip::

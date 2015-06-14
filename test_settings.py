@@ -5,7 +5,10 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.admin',
     'django_freezer',
+    'django_nose'
 )
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 SECRET_KEY = 'djangofreezer'
 
