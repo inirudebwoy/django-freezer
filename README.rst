@@ -1,8 +1,8 @@
 ==============
-Django Freezer
+django-freezer
 ==============
 .. image:: https://travis-ci.org/inirudebwoy/django-freezer.svg?branch=master
-    :target: https://travis-ci.org/inirudebwoy/django-freezer
+   :target: https://travis-ci.org/inirudebwoy/django-freezer
 
 Code can be found here.
 https://github.com/inirudebwoy/django-freezer
